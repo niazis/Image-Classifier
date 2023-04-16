@@ -1,0 +1,11 @@
+{
+        "python.analysis.extraPaths": [
+            "C:\\\\Users\\\\muham\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\tensorflow",
+            "C:\\\\Users\\\\muham\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\tensorflow_core",
+            "C:\\\\Users\\\\muham\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\tensorflow_hub",
+            "C:\\\\Users\\\\muham\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\tensorflow_datasets",
+            "C:\\\\Users\\\\muham\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\tensorflow_estimator",
+            "C:\\\\Users\\\\muham\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\Lib\\\\site-packages\\\\tensorflow_addons"
+        ]
+    
+}
