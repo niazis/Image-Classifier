@@ -1,5 +1,6 @@
 {% block content %}
   <h1>Image Classification</h1>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   <form method="POST" action="{{ url_for('upload') }}" enctype="multipart/form-data">
     <input type="file" name="file" accept="image/*">
     <input type="submit" value="Upload">

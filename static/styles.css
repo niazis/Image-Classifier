@@ -1,0 +1,128 @@
+/* Layout styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-color: #2675be;
+}
+
+/* Text styles */
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type=file] {
+  margin-bottom: 2rem;
+}
+
+input[type=submit] {
+  background-color: #7cb342;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #c5e1a5;
+}
+
+/* Button styles */
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #2675be;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2675be;
+  color: #ffffff;
+}
+
+.btn-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 2rem;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 10rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.btn:hover + .btn-dropdown-content {
+  display: block;
+}
+
+.btn-dropdown-item {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #2675be;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-dropdown-item:hover {
+  background-color: #2675be;
+  color: #ffffff;
+}
+
+/* Home button styles */
+.home-btn {
+  background-color: #ffffff;
+  color: #2675be;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #2675be;
+  color: #ffffff;
+}
